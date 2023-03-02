@@ -1,9 +1,13 @@
 # ----------------------------------------------------------------------
 #
-#    Installation script -- This file is part of the Power Monitoring
-#    (Basic solution) distribution. It contains all the bash commands 
-#    needed to deploy the solution on a Raspberry Pi 4b with raspbian
-#    OS version 11 (bullseye) 32 bits.
+#    Temperature Monitoring (Basic solution) -- This digital solution enables, measures,
+#    reports and records different  types of temperatures (ambient, process, equipment)
+#    so that the temperature conditions surrounding a process can be understood and 
+#    taken action upon. This version can work for 4 types of temperature sensors (now)
+#    which include k-type, RTD, ambient (AHT20), and NIR-based sensors. 
+#    The solution provides a Grafana dashboard that 
+#    displays the temperature timeseries, set threshold value, and a state timeline showing the chnage in temperature.
+#    An InfluxDB database is used to store timestamp, temperature, threshold and status. 
 #
 #    Copyright (C) 2022  Shoestring and University of Cambridge
 #
